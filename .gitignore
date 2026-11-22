@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.batch.lock
+logs/
+evaluation/
+state/

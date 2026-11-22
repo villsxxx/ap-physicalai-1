@@ -1,0 +1,185 @@
+{
+  "created_at": "2026-11-21T10:58:56.129118+00:00",
+  "train_seed": 7,
+  "eval_seed": 84,
+  "max_iters": 1001,
+  "max_recoveries": 2,
+  "experiments": [
+    {
+      "name": "baseline",
+      "num_envs": 4096,
+      "change": null
+    },
+    {
+      "name": "num_envs_2048",
+      "num_envs": 2048,
+      "change": null
+    },
+    {
+      "name": "box_target_strong",
+      "num_envs": 4096,
+      "change": "env_cfg.reward_config.scales.box_target = 40.0"
+    },
+    {
+      "name": "qpos_strong",
+      "num_envs": 4096,
+      "change": "env_cfg.reward_config.scales.robot_target_qpos = 30.0"
+    },
+    {
+      "name": "box_target_half",
+      "num_envs": 4096,
+      "change": "env_cfg.reward_config.scales.box_target = 4.0"
+    }
+  ],
+  "robustness_cases": [
+    {
+      "name": "in_domain",
+      "flags": []
+    },
+    {
+      "name": "cube_x0.6_y0.15",
+      "flags": [
+        "--cube_x",
+        "0.6",
+        "--cube_y",
+        "0.15"
+      ]
+    },
+    {
+      "name": "cube_x0.6_y0.2",
+      "flags": [
+        "--cube_x",
+        "0.6",
+        "--cube_y",
+        "0.2"
+      ]
+    },
+    {
+      "name": "cube_x0.6_y0.25",
+      "flags": [
+        "--cube_x",
+        "0.6",
+        "--cube_y",
+        "0.25"
+      ]
+    },
+    {
+      "name": "cube_x0.6_y0.3",
+      "flags": [
+        "--cube_x",
+        "0.6",
+        "--cube_y",
+        "0.3"
+      ]
+    },
+    {
+      "name": "cube_x0.6_y0.35",
+      "flags": [
+        "--cube_x",
+        "0.6",
+        "--cube_y",
+        "0.35"
+      ]
+    },
+    {
+      "name": "cube_x0.6_y0.4",
+      "flags": [
+        "--cube_x",
+        "0.6",
+        "--cube_y",
+        "0.4"
+      ]
+    },
+    {
+      "name": "cube_x0.45_y0",
+      "flags": [
+        "--cube_x",
+        "0.45",
+        "--cube_y",
+        "0"
+      ]
+    },
+    {
+      "name": "cube_x0.4_y0",
+      "flags": [
+        "--cube_x",
+        "0.4",
+        "--cube_y",
+        "0"
+      ]
+    },
+    {
+      "name": "cube_x0.35_y0",
+      "flags": [
+        "--cube_x",
+        "0.35",
+        "--cube_y",
+        "0"
+      ]
+    },
+    {
+      "name": "cube_x0.3_y0",
+      "flags": [
+        "--cube_x",
+        "0.3",
+        "--cube_y",
+        "0"
+      ]
+    },
+    {
+      "name": "obs_noise_0.02",
+      "flags": [
+        "--obs_noise",
+        "0.02"
+      ]
+    },
+    {
+      "name": "obs_noise_0.05",
+      "flags": [
+        "--obs_noise",
+        "0.05"
+      ]
+    },
+    {
+      "name": "obs_noise_0.1",
+      "flags": [
+        "--obs_noise",
+        "0.1"
+      ]
+    },
+    {
+      "name": "obs_noise_0.15",
+      "flags": [
+        "--obs_noise",
+        "0.15"
+      ]
+    },
+    {
+      "name": "obs_noise_0.2",
+      "flags": [
+        "--obs_noise",
+        "0.2"
+      ]
+    },
+    {
+      "name": "obs_noise_0.3",
+      "flags": [
+        "--obs_noise",
+        "0.3"
+      ]
+    }
+  ],
+  "baseline_reuse": "The newly trained baseline also serves as the first-practice policy; no old weights or results are used.",
+  "independent_hypothesis": {
+    "registered_before_runs": true,
+    "parameter": "env_cfg.reward_config.scales.box_target",
+    "old_value": 8.0,
+    "new_value": 4.0,
+    "question": "Как ослабление награды за перенос куба повлияет на обучение и SR?",
+    "mean_reward_prediction": "Ниже нового baseline; функция награды изменена, поэтому падение числа само по себе не означает ухудшения PickCube.",
+    "sr_prediction": "Число успехов уменьшится не менее чем на два эпизода из десяти относительно нового baseline.",
+    "reason": "Стимул близости гриппера к кубу остаётся прежним, а стимул переноса куба к цели ослабевает вдвое.",
+    "comparison_conditions": "Одинаковые train seed=7, eval seed=84, 1001 итерация, 4096 сред; обучение с нуля.",
+    "interpretation": "Проверить предсказания по mean_reward и SR отдельно; отсутствие ожидаемого эффекта тоже является результатом."
+  }
+}

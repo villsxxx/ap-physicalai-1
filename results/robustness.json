@@ -1,0 +1,666 @@
+[
+  {
+    "name": "in_domain",
+    "flags": [],
+    "grasps": 10,
+    "successes": 10,
+    "episodes": 10,
+    "mean_inference_reward": 1490.07,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/in_domain/video.mp4"
+    ],
+    "wall_seconds": 166.04,
+    "finished_at": "2026-11-21T14:07:52.721621+00:00",
+    "video": "evaluation/robustness/in_domain/video.mp4"
+  },
+  {
+    "name": "cube_x0.6_y0.15",
+    "flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.15"
+    ],
+    "grasps": 10,
+    "successes": 10,
+    "episodes": 10,
+    "mean_inference_reward": 1530.59,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.15"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.6_y0.15/video.mp4",
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.15"
+    ],
+    "wall_seconds": 167.85,
+    "finished_at": "2026-11-21T14:10:40.573081+00:00",
+    "video": "evaluation/robustness/cube_x0.6_y0.15/video.mp4"
+  },
+  {
+    "name": "cube_x0.6_y0.2",
+    "flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.2"
+    ],
+    "grasps": 10,
+    "successes": 10,
+    "episodes": 10,
+    "mean_inference_reward": 1538.5,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.2"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.6_y0.2/video.mp4",
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.2"
+    ],
+    "wall_seconds": 167.65,
+    "finished_at": "2026-11-21T14:13:28.226412+00:00",
+    "video": "evaluation/robustness/cube_x0.6_y0.2/video.mp4"
+  },
+  {
+    "name": "cube_x0.6_y0.25",
+    "flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.25"
+    ],
+    "grasps": 10,
+    "successes": 10,
+    "episodes": 10,
+    "mean_inference_reward": 1527.91,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.25"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.6_y0.25/video.mp4",
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.25"
+    ],
+    "wall_seconds": 166.72,
+    "finished_at": "2026-11-21T14:16:14.948702+00:00",
+    "video": "evaluation/robustness/cube_x0.6_y0.25/video.mp4"
+  },
+  {
+    "name": "cube_x0.6_y0.3",
+    "flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.3"
+    ],
+    "grasps": 10,
+    "successes": 10,
+    "episodes": 10,
+    "mean_inference_reward": 1518.23,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.3"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.6_y0.3/video.mp4",
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.3"
+    ],
+    "wall_seconds": 167.25,
+    "finished_at": "2026-11-21T14:19:02.219940+00:00",
+    "video": "evaluation/robustness/cube_x0.6_y0.3/video.mp4"
+  },
+  {
+    "name": "cube_x0.6_y0.35",
+    "flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.35"
+    ],
+    "grasps": 10,
+    "successes": 9,
+    "episodes": 10,
+    "mean_inference_reward": 1401.29,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.35"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.6_y0.35/video.mp4",
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.35"
+    ],
+    "wall_seconds": 168.19,
+    "finished_at": "2026-11-21T14:21:50.414054+00:00",
+    "video": "evaluation/robustness/cube_x0.6_y0.35/video.mp4"
+  },
+  {
+    "name": "cube_x0.6_y0.4",
+    "flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.4"
+    ],
+    "grasps": 9,
+    "successes": 6,
+    "episodes": 10,
+    "mean_inference_reward": 1047.08,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.4"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.6_y0.4/video.mp4",
+      "--cube_x",
+      "0.6",
+      "--cube_y",
+      "0.4"
+    ],
+    "wall_seconds": 170.56,
+    "finished_at": "2026-11-21T14:24:40.982472+00:00",
+    "video": "evaluation/robustness/cube_x0.6_y0.4/video.mp4"
+  },
+  {
+    "name": "cube_x0.45_y0",
+    "flags": [
+      "--cube_x",
+      "0.45",
+      "--cube_y",
+      "0"
+    ],
+    "grasps": 3,
+    "successes": 3,
+    "episodes": 10,
+    "mean_inference_reward": 761.0,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.45",
+      "--cube_y",
+      "0"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.45_y0/video.mp4",
+      "--cube_x",
+      "0.45",
+      "--cube_y",
+      "0"
+    ],
+    "wall_seconds": 167.29,
+    "finished_at": "2026-11-21T14:27:28.273927+00:00",
+    "video": "evaluation/robustness/cube_x0.45_y0/video.mp4"
+  },
+  {
+    "name": "cube_x0.4_y0",
+    "flags": [
+      "--cube_x",
+      "0.4",
+      "--cube_y",
+      "0"
+    ],
+    "grasps": 0,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 371.39,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.4",
+      "--cube_y",
+      "0"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.4_y0/video.mp4",
+      "--cube_x",
+      "0.4",
+      "--cube_y",
+      "0"
+    ],
+    "wall_seconds": 166.58,
+    "finished_at": "2026-11-21T14:30:14.851272+00:00",
+    "video": "evaluation/robustness/cube_x0.4_y0/video.mp4"
+  },
+  {
+    "name": "cube_x0.35_y0",
+    "flags": [
+      "--cube_x",
+      "0.35",
+      "--cube_y",
+      "0"
+    ],
+    "grasps": 0,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 263.88,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.35",
+      "--cube_y",
+      "0"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.35_y0/video.mp4",
+      "--cube_x",
+      "0.35",
+      "--cube_y",
+      "0"
+    ],
+    "wall_seconds": 166.15,
+    "finished_at": "2026-11-21T14:33:01.005554+00:00",
+    "video": "evaluation/robustness/cube_x0.35_y0/video.mp4"
+  },
+  {
+    "name": "cube_x0.3_y0",
+    "flags": [
+      "--cube_x",
+      "0.3",
+      "--cube_y",
+      "0"
+    ],
+    "grasps": 0,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 287.22,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--cube_x",
+      "0.3",
+      "--cube_y",
+      "0"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/cube_x0.3_y0/video.mp4",
+      "--cube_x",
+      "0.3",
+      "--cube_y",
+      "0"
+    ],
+    "wall_seconds": 155.3,
+    "finished_at": "2026-11-21T14:35:36.318656+00:00",
+    "video": "evaluation/robustness/cube_x0.3_y0/video.mp4"
+  },
+  {
+    "name": "obs_noise_0.02",
+    "flags": [
+      "--obs_noise",
+      "0.02"
+    ],
+    "grasps": 7,
+    "successes": 5,
+    "episodes": 10,
+    "mean_inference_reward": 832.59,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--obs_noise",
+      "0.02"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/obs_noise_0.02/video.mp4",
+      "--obs_noise",
+      "0.02"
+    ],
+    "wall_seconds": 170.8,
+    "finished_at": "2026-11-21T14:38:27.129978+00:00",
+    "video": "evaluation/robustness/obs_noise_0.02/video.mp4"
+  },
+  {
+    "name": "obs_noise_0.05",
+    "flags": [
+      "--obs_noise",
+      "0.05"
+    ],
+    "grasps": 2,
+    "successes": 1,
+    "episodes": 10,
+    "mean_inference_reward": 549.48,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--obs_noise",
+      "0.05"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/obs_noise_0.05/video.mp4",
+      "--obs_noise",
+      "0.05"
+    ],
+    "wall_seconds": 168.05,
+    "finished_at": "2026-11-21T14:41:15.200542+00:00",
+    "video": "evaluation/robustness/obs_noise_0.05/video.mp4"
+  },
+  {
+    "name": "obs_noise_0.1",
+    "flags": [
+      "--obs_noise",
+      "0.1"
+    ],
+    "grasps": 1,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 341.1,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--obs_noise",
+      "0.1"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/obs_noise_0.1/video.mp4",
+      "--obs_noise",
+      "0.1"
+    ],
+    "wall_seconds": 154.9,
+    "finished_at": "2026-11-21T14:43:50.128916+00:00",
+    "video": "evaluation/robustness/obs_noise_0.1/video.mp4"
+  },
+  {
+    "name": "obs_noise_0.15",
+    "flags": [
+      "--obs_noise",
+      "0.15"
+    ],
+    "grasps": 0,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 318.24,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--obs_noise",
+      "0.15"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/obs_noise_0.15/video.mp4",
+      "--obs_noise",
+      "0.15"
+    ],
+    "wall_seconds": 156.95,
+    "finished_at": "2026-11-21T14:46:27.089697+00:00",
+    "video": "evaluation/robustness/obs_noise_0.15/video.mp4"
+  },
+  {
+    "name": "obs_noise_0.2",
+    "flags": [
+      "--obs_noise",
+      "0.2"
+    ],
+    "grasps": 1,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 298.31,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--obs_noise",
+      "0.2"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/obs_noise_0.2/video.mp4",
+      "--obs_noise",
+      "0.2"
+    ],
+    "wall_seconds": 163.91,
+    "finished_at": "2026-11-21T14:49:11.004175+00:00",
+    "video": "evaluation/robustness/obs_noise_0.2/video.mp4"
+  },
+  {
+    "name": "obs_noise_0.3",
+    "flags": [
+      "--obs_noise",
+      "0.3"
+    ],
+    "grasps": 0,
+    "successes": 0,
+    "episodes": 10,
+    "mean_inference_reward": 208.02,
+    "status": "completed",
+    "seed": 84,
+    "checkpoint": "logs/baseline_resume1/model_999.pt",
+    "extra_flags": [
+      "--obs_noise",
+      "0.3"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "inference.py",
+      "--checkpoint",
+      "logs/baseline_resume1/model_999.pt",
+      "--seed",
+      "84",
+      "--episodes",
+      "10",
+      "--record",
+      "evaluation/robustness/obs_noise_0.3/video.mp4",
+      "--obs_noise",
+      "0.3"
+    ],
+    "wall_seconds": 165.46,
+    "finished_at": "2026-11-21T14:51:56.470722+00:00",
+    "video": "evaluation/robustness/obs_noise_0.3/video.mp4"
+  }
+]

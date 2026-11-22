@@ -1,0 +1,23 @@
+{
+  "captured_at": "2026-11-21T11:04:39.951777+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "cuda_runtime": "13.0",
+  "versions": {
+    "playground": "0.1.0",
+    "rsl-rl-lib": "5.5.1",
+    "torch": "2.14.1",
+    "jax": "0.6.2",
+    "jaxlib": "0.6.2",
+    "mujoco": "3.5.0",
+    "mujoco-mjx": "3.5.0",
+    "numpy": "2.2.6"
+  },
+  "default_reward_scales": {
+    "box_target": 8.0,
+    "gripper_box": 4.0,
+    "no_floor_collision": 0.25,
+    "robot_target_qpos": 0.3
+  },
+  "execution_note": "Computations run on the host providing the GPU; no claim of execution on the student own hardware."
+}
